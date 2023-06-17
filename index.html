@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#"><img src="assets/images/platzi-logo.png" alt="Logo platzi"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="enlace-menu" href="#quienesSomos">Quiénes somos</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="enlace-menu" href="#registro">Registro de solicitud</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="enlace-menu" href="#">Norma ISO/IEC 29110</a></li>
+                </ul>
+            
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#quienesSomos">Quiénes somos</a></li>
+                    <li><a href="#registro">Registro de solicitud</a></li>
+                    <li><a href="#">Norma ISO/IEC 29110</a></li>
+                </ul>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!--seccion1-->
+    <div id="index-banner" class="parallax-container">
+    <div class="seccion no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header centrer">CEDESOFT ITSN</h1>
+            <div class="row centrer">
+                <a href="#registro" id="downloadbutton" class="btn-large waves-effect waves-light teal lighten-1">Registra tu solicitud</a>
+            </div>
+            <br><br>
+        </div>
+    </div>
+        <div class="parallax"><img src="assets/images/hawaii3.jpeg" alt="Unsplashed background img 1"></div>
+    </div>
+    <!-- Seccion 2 quienes somos -->
+<div id="quienesSomos" class="container">
+    <div class="section">
+    <div class="row">
+    <div class="col s12 m6 l4">
+    <div class="icon-block">
+    <h2 class="center brown-text"><i class="material-icons"></i></h2>
+    <h5 class="center">CEDESOFT ITSN</h5>
+    <p class="light">El Centro de Desarrollo de
+    Software del Instituto Tecnológico Superior de Nochistlán (CEDESOFT
+    ITSN) nace en el 2018 con apoyo de la Secretaría de Economía del
+    estado de Zacatecas con la finalidad de crear productos de software
+    de calidad mediante la norma ISO/IEC 29110 en el perfil básico con
+    los procesos de Gestión de Proyectos de Software e Implementación de
+    Software.</p>
+    </div>
+    </div>
+    <div class="col s12 m6 l4">
+    <div class="icon-block">
+    <h2 class="center brown-text"><i class="material-icons"></i></h2>
+    <h5 class="center">MISIÓN</h5>
+    <p class="light">Generar productos de software de
+    calidad a través del cumplimiento de estándares internacionales para
+    el desarrollo de software para contribuir al desarrollo económico de
+    las regiones, altos de Jalisco y sur de Zacatecas.</p>
+    </div>
+    </div>
+    <div class="col s12 m6 l4">
+    <div class="icon-block">
+    <h2 class="center brown-text"><i class="material-icons"></i></h2>
+    <h5 class="center">VISIÓN</h5>
+    <p class="light">Ser un Centro de Desarrollo de
+    Software reconocido por la calidad de sus productos a nivel
+    internacional.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- /Seccion 2 -->
+
+    <!--Seccion 3-->
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">Tu tienes una necesidad de software, nosotros la desarrolamos.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="assets/images/hawaii2.jpg" alt="img2"></div>
+    </div>
+
+    <!--Registro-->>
+    <section id="registro">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h2>Registra tu solicitud</h2>
+                </div>
+            </div>
+
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombre</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Apellido</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="telefono" type="tel" class="validate">
+                        <label for="telefono">telefono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input id="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix"></i>
+                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <label for="icon_prefix2">describe las funcionalidades básicas</label>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer id="footer" class="page-footer">
+        <div class="container">
+            <div class="row center-align">
+                <div class="col s12 l3">
+                    <a href="#">Pregunas frecuentes</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#">Contactanos</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#">Terminos y Condiciones</a>
+                </div>
+                <div class="col s12 l3">
+                    <a href="#">Privacidad</a>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container left">
+                    © 2023 Derechos reservados ITSN Joto el que me lo robe
+                    <a class="grey-text text-lighten-4 right" href="#!">Mas Enlaces</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
